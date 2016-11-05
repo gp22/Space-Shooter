@@ -2,3 +2,19 @@ body{
   padding: 0;
   margin: 0;
 }
+
+
+#canvas-game{
+  margin-top: 8%;
+}
+
+.menu-container{
+  position:absolute;
+  width:100%;
+}
+.menu_item{
+  float:right;
+}
+.brand{
+  position:absolute;
+}

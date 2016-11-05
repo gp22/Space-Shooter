@@ -1,9 +1,13 @@
+var canvas
+
 function setup(){
-  createCanvas(800,800);
+  canvas = createCanvas(800,800);
 
   setupControls(); //TODO
   placeEnemies(); // TODO
   placeSpaceShip(); //TODO
+
+  canvas.parent('canvas-game');
 }
 
 function draw(){
