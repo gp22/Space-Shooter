@@ -10,6 +10,8 @@ body {
 .menu-container {
     position: absolute;
     width: 100%;
+    background: red;
+    min-height: 175px;
 }
 
 .brand-firstword {
@@ -30,4 +32,34 @@ body {
 
 .brand {
     position: absolute;
+}
+.menu_item ul {
+  margin-top: 30px;
+  padding:0;
+}
+
+.menu_item ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0px 5px 0px 5px;
+  padding: 10px;
+  border: 1px solid;
+  font-size: 24px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .menu_item {
+    display: none;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+
 }
