@@ -1,20 +1,33 @@
-body{
-  padding: 0;
-  margin: 0;
+body {
+    padding: 0;
+    margin: 0;
 }
 
-
-#canvas-game{
-  margin-top: 8%;
+#canvas-game {
+    margin-top: 12%;
 }
 
-.menu-container{
-  position:absolute;
-  width:100%;
+.menu-container {
+    position: absolute;
+    width: 100%;
 }
-.menu_item{
-  float:right;
+
+.brand-firstword {
+    font-family: 'VT323', monospace;
+    font-size: 90px;
+    margin: 0px 0px -25px 10px;
 }
-.brand{
-  position:absolute;
+
+.brand-secondword {
+    font-family: 'VT323', monospace;
+    font-size: 90px;
+    margin: 0px 0px 0px 20px;
+}
+
+.menu_item {
+    float: right;
+}
+
+.brand {
+    position: absolute;
 }
