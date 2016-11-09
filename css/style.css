@@ -69,6 +69,7 @@ text-decoration: none;
   position: absolute;
   width:50%;
   top:4%;
+  z-index: -3;
 }
 
 
