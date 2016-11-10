@@ -20,41 +20,42 @@ body {
 
 .brand-firstword {
     font-family: 'VT323', monospace;
-    font-size: 2.5em;
+    font-size: 4.5em;
     margin: 0px 0px -25px 10px;
 }
 
 .brand-secondword {
     font-family: 'VT323', monospace;
-    font-size: 2.5em;
-    margin: 0px 0px 0px 20px;
+    font-size: 4.5em;
+    margin: 0px 0px 0px 51px;
 }
 
 .menu_item {
     float: right;
     margin-right: 2%;
+    font-size: 24px;
+   margin-top: 3%;
 }
 
 .brand {
     position: absolute;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .brand a {
-    color: black;
     text-decoration: none;
 }
 
 .menu_item ul {
-    margin-top: 30px;
+    margin: 0;
     padding: 0;
+      justify-content: space-between;
 }
 
 .menu_item ul li {
     list-style-type: none;
     display: inline;
-    margin: 0px 5px 0px 5px;
-    padding: 10px;
-    font-size: 24px;
     background-color: black;
     outline: 1px solid grey;
 }
@@ -68,13 +69,16 @@ body {
 .menu_item ul li a {
     color: white;
     text-decoration: none;
+    margin: 0px 5px 0px 5px;
+    padding: 10px;
 }
 
 
 #ufo{
   position: absolute;
-  width:50%;
-  top:4%;
+  width: 40%;
+  top: 4%;
+  left: 25%;
   z-index: -3;
 }
 
