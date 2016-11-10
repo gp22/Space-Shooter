@@ -2,11 +2,14 @@ body {
     padding: 0;
     margin: 0;
     background-image: url('../images/space-background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 100%;
 }
 
 #canvas-game {
     margin-top: 12%;
-  text-align: center;
+    text-align: center;
 }
 
 .menu-container {
@@ -17,13 +20,13 @@ body {
 
 .brand-firstword {
     font-family: 'VT323', monospace;
-    font-size: 250%;
+    font-size: 2.5em;
     margin: 0px 0px -25px 10px;
 }
 
 .brand-secondword {
     font-family: 'VT323', monospace;
-    font-size: 250%;
+    font-size: 2.5em;
     margin: 0px 0px 0px 20px;
 }
 
@@ -36,34 +39,37 @@ body {
     position: absolute;
 }
 
-.brand a{
-  color: black;
-text-decoration: none;
+.brand a {
+    color: black;
+    text-decoration: none;
 }
 
 .menu_item ul {
-  margin-top: 30px;
-  padding:0;
+    margin-top: 30px;
+    padding: 0;
 }
 
 .menu_item ul li {
-  list-style-type: none;
-  display: inline;
-  margin: 0px 5px 0px 5px;
-  padding: 10px;
-  font-size: 24px;
+    list-style-type: none;
+    display: inline;
+    margin: 0px 5px 0px 5px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: black;
+    outline: 1px solid grey;
 }
 
-.menu_item ul li:hover{
-  background-color: gray;
-  color: white;
-  border-color: gray;
+.menu_item ul li:hover {
+    background-color: #2b2b2b;
+    color: white;
+    border-color: gray;
 }
 
-.menu_item ul li a{
-  color: black;
-text-decoration: none;
+.menu_item ul li a {
+    color: white;
+    text-decoration: none;
 }
+
 
 #ufo{
   position: absolute;
@@ -74,18 +80,21 @@ text-decoration: none;
 
 
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-  .menu_item {
-    display: none;
-  }
+
+@media (min-width: 768px) {
+
 }
+
 
 /* Medium devices (desktops, 992px and up) */
-@media (max-width: 992px) {
+
+@media (min-width: 992px) {
 
 }
 
+
 /* Large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {
+
+@media (min-width: 1200px) {
 
 }
