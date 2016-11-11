@@ -1,7 +1,7 @@
 var canvas
 
 function setup(){
-  canvas = createCanvas(700, 600);
+    canvas = createCanvas(windowWidth, windowHeight-10);
 
   setupControls(); //TODO
   placeEnemies(); // TODO
