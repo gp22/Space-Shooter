@@ -1,16 +1,26 @@
+html {
+    background: url('../images/space-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 body {
     padding: 0;
     margin: 0;
-    background-image: url('../images/space-background.jpg');
-    background-size: cover;
-    background-position: center;
     font-size: 100%;
+
 }
 
 #canvas-game {
     margin-top: 12%;
     text-align: center;
 }
+
+
+/*#defaultCanvas0 {
+  width: 400px !important;
+  height: 400px !important;
+}*/
 
 .menu-container {
     /*position: absolute;*/
@@ -34,7 +44,7 @@ body {
     float: right;
     margin-right: 2%;
     font-size: 24px;
-   margin-top: 3%;
+    margin-top: 3%;
 }
 
 .brand {
@@ -50,7 +60,7 @@ body {
 .menu_item ul {
     margin: 0;
     padding: 0;
-      justify-content: space-between;
+    justify-content: space-between;
 }
 
 .menu_item ul li {
@@ -73,32 +83,41 @@ body {
     padding: 10px;
 }
 
-
-#ufo{
-  position: absolute;
-  width: 40%;
-  top: 4%;
-  left: 25%;
-  z-index: -3;
+#ufo {
+    position: absolute;
+    width: 40%;
+    top: 4%;
+    left: 25%;
+    z-index: -3;
 }
 
 
 /* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-
+    #defaultCanvas0 {
+        /*width: 700px !important;
+    height: 600px !important;*/
+    }
+    .brand-secondword {
+        color: red;
+    }
 }
 
 
 /* Medium devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-
+    .brand-secondword {
+        color: green;
+    }
 }
 
 
 /* Large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-
+    .brand-secondword {
+        color: blue;
+    }
 }
