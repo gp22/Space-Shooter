@@ -49,6 +49,7 @@ body {
 .brand {
     position: absolute;
     color: black;
+    display:none;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
@@ -91,13 +92,96 @@ body {
 }
 
 .flex_container {
-  flex-direction: column;
-  width: auto;
+    flex-direction: column;
+    width: auto;
 }
 
 .flex_item {
-  flex-shrink: : 1;
+    flex-shrink: : 1;
 }
+
+@media screen (min-device-width: 768px) and (max-device-width: 1200px) {
+  #canvas-game {
+      margin-top: 15%;
+      margin-bottom: 5%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  /*#defaultCanvas0 {
+  width: 400px !important;
+  height: 400px !important;
+}*/
+  .menu-container {
+      /*position: absolute;*/
+      width: 100%;
+      min-height: 10%;
+  }
+  .brand-firstword {
+      font-family: 'VT323', monospace;
+      font-size: 4.5em;
+      margin: 0px 0px -25px 10px;
+  }
+  .brand-secondword {
+      font-family: 'VT323', monospace;
+      color: yellow;
+      font-size: 4.5em;
+      margin: 0px 0px 0px 51px;
+  }
+  .menu_item {
+      float: right;
+      margin-right: 2%;
+      font-size: 24px;
+      margin-top: 3%;
+  }
+  .brand {
+      position: absolute;
+      color: black;
+      display:inline;
+      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  }
+  .brand a {
+      text-decoration: none;
+  }
+  .menu_item ul {
+      margin: 0;
+      padding: 0;
+      justify-content: space-between;
+  }
+  .menu_item ul li {
+      list-style-type: none;
+      display: inline;
+      background-color: black;
+      outline: 1px solid grey;
+  }
+  .menu_item ul li:hover {
+      background-color: #2b2b2b;
+      color: white;
+      border-color: gray;
+  }
+  .menu_item ul li a {
+      color: white;
+      text-decoration: none;
+      margin: 0px 5px 0px 5px;
+      padding: 10px;
+  }
+  #ufo {
+      position: absolute;
+      width: 40%;
+      top: 4%;
+      left: 25%;
+      z-index: -3;
+  }
+  .flex_container {
+      flex-direction: column;
+      width: auto;
+  }
+  .flex_item {
+      flex-shrink: : 1;
+  }
+}
+
 
 /* Small devices (tablets, 768px and up) */
 
@@ -124,7 +208,10 @@ body {
 /* Large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    .brand-secondword {
-        color: blue;
-    }
+.brand-secondword{
+  color:yellow;
+}
+.brand{
+
+}
 }
