@@ -1,19 +1,18 @@
-html {
-    background: url('../images/space-background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 body {
     padding: 0;
     margin: 0;
     font-size: 100%;
-
+    background: url('../images/space-background.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 #canvas-game {
-    margin-top: 12%;
+    margin-top: 15%;
+    margin-bottom: 5%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -91,6 +90,14 @@ body {
     z-index: -3;
 }
 
+.flex_container {
+  flex-direction: column;
+  width: auto;
+}
+
+.flex_item {
+  flex-shrink: : 1;
+}
 
 /* Small devices (tablets, 768px and up) */
 
